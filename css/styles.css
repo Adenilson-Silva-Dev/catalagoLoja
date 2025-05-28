@@ -74,44 +74,26 @@ background-color:transparent;
   display: flex;
   flex-direction: column;
   gap: 16px;
-  align-items: center;
-  justify-content: center;
 }
 
 .btn {
   display: block;
-  width: 80%;
+  width: 100%;
   padding: 14px 0;
-  background: #9C7B43;
-  color: #fff;
-  border: none;
-  border-radius: 24px;
+  background: #ffffff;
+  color: #9C7B43;
+  border: 2px solid #9C7B43;
+  border-radius: 16px;
   font-size: 1.1rem;
   font-weight: 700;
   text-decoration: none;
   transition: background 0.2s, color 0.2s;
   letter-spacing: 0.5px;
   cursor: pointer;
-  animation: btnGradient 5s ease-in-out infinite;
-}
-
-@keyframes btnGradient {
-  0% {
-    background-color: #B89459;
-  }
-  33% {
-    background-color: #9C7B43;
-  }
-  66% {
-    background-color: #80623A;
-  }
-  100% {
-    background-color: #B89459;
-  }
 }
 
 .btn:hover {
-  filter: brightness(1.1);
+  background: #9C7B43;
   color: #fff;
 }
 
